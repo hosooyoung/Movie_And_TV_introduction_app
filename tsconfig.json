@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["@types/styled-components-react-native"],
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "validProperties": ["margin-vertical"]
+        }
+      }
+    ]
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}
